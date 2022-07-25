@@ -9,7 +9,7 @@ function GenerateNewText() {
   // Add property to the object
   this.sentences =
     [
-      "These go to 11.",
+  "These go to 11.",
   "maybe you know ",
   "Wecome to the Jungle...Love, Axl.",
   "2 minutes to midnight from Iron Maiden.",
@@ -31,8 +31,7 @@ function GenerateNewText() {
   "Acoustic power ballads rule.",
   "Here I am, rock you like a hurricane. ",
   "Feed my Frankenstein, Hungry for love, and it's feeding time",
-  "She was a fast machine, she kept her motor clean, she was the best damn woman that I ever seen.
-  ",
+  "She was a fast machine, she kept her motor clean, she was the best damn woman that I ever seen.",
   "Where the grass is green and the girls are pretty",
   "Love is like a bomb, baby, c'mon get it on, livin' like a lover with a radar phone.",
   "Pantera's Dimebag Darrell.",
@@ -45,8 +44,7 @@ function GenerateNewText() {
   "Vivian Campbell played in Dio, Last in Line, and Def Leppard.",
   "Oh yeah, t-t-teacher stop that screamin', teacher don't you see, don't wanna be no uptown fool.",
   "I wanna rock and roll all night and part of every day.",
-  "Operation Mindcrime, we're an underground revolution working overtime.
-  ",
+  "Operation Mindcrime, we're an underground revolution working overtime.",
   "Tawny Kitaen in a Whitesnake video and on a Ratt album cover. ",
   "In the still of the night I hear the wolf howl, honey. Sniffing around your door.",
   "I really had a blackout, baby. ",

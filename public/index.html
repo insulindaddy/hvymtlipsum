@@ -10,12 +10,14 @@
 
     <p class="description">A simple lorem ipsum generator</p>
 
-    <form action="/" method="POST">
-      <input type="number" class="paragraph-number" name="numberOfParagraphs">
-      <input type="submit" value="Generate" class="generate-button">
-    </form>
+    <div>
+      <form action="/" method="POST">
+        <input type="number" class="paragraph-number" name="numberOfParagraphs">
+        <input type="submit" value="Generate" class="generate-button">
+      </form>
+    </div>
 
-    <div class="generated-text">
+    <div id="paragraphs" class="generated-text">
       <div class='placeholder-div'></div>
     </div>
 

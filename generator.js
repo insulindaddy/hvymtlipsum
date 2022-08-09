@@ -153,7 +153,7 @@ GenerateNewText. prototype. getParagraph = function() {
       paragraph = paragraph. concat(this. getRandomSentence());
       firstSentence = false;
     } else {
-      paragraph = paragraph. concat(" " + this. getRandomSentence());
+      paragraph = paragraph. concat(this. getRandomSentence());
     }
   }
   return paragraph;
@@ -167,7 +167,7 @@ GenerateNewText. prototype. getAllParagraphs = function(numberOfParagraphs) {
     allParagraphs. push(this. getParagraph());
   }
   // Convert array into HTML string
-  let paragraphHTML = ";
+  let paragraphHTML = "";
   allParagraphs. forEach(function (paragraph) {
     paragraphHTML += "<p>" + paragraph + "</p>";
   });

@@ -8,8 +8,7 @@ const loremIpsum = new GenerateNewText();
 function GenerateNewText() {
   // Add property to the object
   this. sentences =
-    [
-      "These go to 11. ",
+    ["These go to 11. ",
       "Maybe you know ",
       "Wecome to the Jungle. . . Love, Axl. ",
       "2 minutes to midnight from Iron Maiden. ",
@@ -66,7 +65,7 @@ function GenerateNewText() {
       "Maynard of Tool. ",
       "Things ain't always what they seem. What a shame, what happend to Jayne. ",
       "Got your number off the bathroom wall, so I decided it was about time I made the call. ",
-      "Backstage pass.  ",
+      "Backstage pass. ",
       "They call me Dr. Love. ",
       "Bullet Boys - Smooth up in ya. ",
       "And yes I'm all lit up again on the couch, in my bed. ",
@@ -134,8 +133,7 @@ function GenerateNewText() {
       "Decline of the Western Civilization Part II: The Metal Years. ",
       "KISS Put the Makeup Back On. ",
       "Anthrax Collaborate With Public Enemy. ",
-      "Have you ever heard"
-  ];
+      "Have you ever heard. "];
 }
 
 // Method to the GenerateNewText constructor function that generates a random sentence

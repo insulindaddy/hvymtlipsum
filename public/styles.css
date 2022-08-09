@@ -1,77 +1,153 @@
-body {
-
-  font-size: 10pt;
-
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-
-  color: black;
-
-  line-height: 14pt;
-
-  padding-left: 20pt;
-
-  padding-right: 20pt;
-
-  padding-top: 75pt;
-
-  padding-bottom: 20pt;
-
+html {
+  /* background-image: url("PD Heavy Metal Image.jpg"); */
   background-image: url("HeavyMetalTest.jpeg");
-
+  background-size: contain;
+  background-repeat: repeat;
 }
 
+body {
+
+  font-size: 16pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: White;
+
+  text-align: center;
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 0 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
 
 h1 {
-  text-align: center;
 
   font: 30pt Verdana, Geneva, Arial, Helvetica, sans-serif;
-
   font-weight: bold;
-
   line-height: 20pt;
-
-  color: white;
-
-  padding-left: 10;
-
-  padding-right: 10;
-
-  padding-top: 0;
-
-  padding-bottom: 20pt;
-
 }
 
 
 p {
   font: 20pt;
+}
 
-  text-align: center;
+form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
-  font-weight: bold;
+.main-content {
+  z-index: 10;
+}
 
+.description {
+  color: #fff;
+  font-size: 16pt;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.paragraph-number {
+  font-size: 12pt;
+  max-width: 80px;
+  margin: 0;
+  margin-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  height: 40px;
+  transition: box-shadow 1s;
+}
+
+.generate-button,
+.copy-button {
+  padding: 10px 25px;
+  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5); */
+  line-height: 1.25;
+  background: #595957;
+  text-decoration: none;
   color: white;
+  font-size: 12pt;
+  /* letter-spacing: .08em; */
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color .6s ease;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    top: var(--mouse-y);
+    left: var(--mouse-x);
+    transform-style: flat;
+    transform: translate3d(-50%,-50%,0);
+    background: rgba(white,.1);
+    border-radius: 100%;
+    transition: width .3s ease, height .3s ease;
+  }
+  &:focus,
+  &:hover {
+      background: darken(#FC6E51,7%);
+  }
+  &:active {
+    &:after {
+      width: 300px;
+      height: 300px;
+    }
+  }
 }
 
-div {
-  text-align: center;
-
-  font-size: 9pt;
-
-  font-style: italic;
-
-  line-height: 12pt;
-
-  text-align: center;
+.generated-text {
+  padding: 20px;
+  color: #313131;
+  background-color: #fff;
+  box-shadow: #fff 0px 0px 5px 4px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-#paragraphs {
+.generated-text p {
+  font-size: 16px;
+  text-align: left;
+  animation: fadein 1s;
+}
 
-  padding-left: 200pt;
+.generated-text p:first-child {
+  margin-top: 0;
+}
 
-  padding-right: 200pt;
+.generated-text p:last-child {
+  margin-bottom: 0;
+}
 
-  padding-top: 20pt;
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 
-  padding-bottom: 20pt;
+#copyOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  left: 0;
+  height: 100vh;
+  z-index: 100;
+}
+
+#copyText {
+  margin-top: 40vh;
+}
+
+#copyText p {
+  font-size: 30px;
+  color: White;
 }

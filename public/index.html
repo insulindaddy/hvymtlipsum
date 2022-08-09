@@ -6,9 +6,13 @@
 </head>
 <body>
 
-    <h1 class="title">Lorem Ipsum Generator</h1>
+  <div class=main-content>
+    <!--White-->
+    <img src="https://see.fontimg.com/api/renderfont4/L39rg/eyJyIjoiZnMiLCJoIjoxMTAsInciOjIwMDAsImZzIjo1NSwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/SGVhdnkgTWV0YWwgSXBzdW0gR2VuZXJhdG9y/saint-martyr.png" alt="Heavy Metal Ipsum Generator">
+    <!--Black-->
+    <!-- <img src="https://see.fontimg.com/api/renderfont4/L39rg/eyJyIjoiZnMiLCJoIjoxMzAsInciOjIwMDAsImZzIjo2NSwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/SGVhdnkgTWV0YWwgSXBzdW0gR2VuZXJhdG9y/saint-martyr.png" alt="Heavy Metal Ipsum Generator"> -->
 
-    <p class="description">A simple lorem ipsum generator</p>
+    <p class="description">A heavy metal lorem ipsum generator</p>
 
     <div>
       <form action="/" method="POST">
@@ -17,9 +21,44 @@
       </form>
     </div>
 
-    <div id="paragraphs" class="generated-text">
+    <!-- Copy button -->
+    <!--Old <a href="javascript:void(0)" class='copy-button' data-clipboard-target="#targetText">Copy Text</a> -->
+    <!--New-->
+    <form action="javascript:void(0)">
+      <input type="submit" class='copy-button' value="Copy Text" data-clipboard-target="#targetText"/>
+    </form>
+
+    <div id="targetText" class="generated-text">
       <div class='placeholder-div'></div>
     </div>
+  </div>
+
+    <div id="copyOverlay">
+      <div id="copyText">
+        <p>Copied!</p>
+      </div>
+    </div>
+
+  <!-- Copy button guts -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script>
+    var innerContents = document.getElementsByClassName("generated-text")[0].innerHTML;
+    if (!innerContents.includes("<p>")) {
+      $('.copy-button').hide();
+      document.getElementsByClassName("generated-text")[0].style.display = "none";
+    };
+    var clip = new Clipboard('.copy-button');
+    clip.on('success', function(e) {
+      $('#copyOverlay').show();
+      $('#copyOverlay').fadeOut(2000);
+      e.clearSelection();
+    });
+  </script>
 
 </body>
 </html>

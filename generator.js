@@ -13,12 +13,12 @@ function GenerateNewText() {
       "Wecome to the Jungle...Love, Axl.",
       "2 minutes to midnight from Iron Maiden.",
       "Metal rules and disco sucks and",
-      "Is it hard rock or heavy metal? ",
+      "Is it hard rock or heavy metal?",
       "metal till we die",
-      "Where is Tommy Lee's MAYHEM tattoo? ",
+      "Where is Tommy Lee's MAYHEM tattoo?",
       "Rob Halford of Judas Priest.",
       "I am Iron Man",
-      "Randy Rhoads or Jake E.Lee? ",
+      "Randy Rhoads or Jake E.Lee?",
       "Your crime is time and it's 18 and life to go...",
       "Take me down to the paradise city.",
       "Master of puppets I'm pulling your strings.",
@@ -38,7 +38,7 @@ function GenerateNewText() {
       "Lemmy.Enough said.",
       "Peace sells, but who's buying?",
       "Bang your head, metal health will drive you mad.",
-      "A pledge pin? On your uniform? ",
+      "A pledge pin?On your uniform?",
       "Sam Kinison playing Wild Thing.",
       "Vivian Campbell played in Dio, Last in Line, and Def Leppard.",
       "Oh yeah, t-t-teacher stop that screamin', teacher don't you see, don't wanna be no uptown fool.",
@@ -52,7 +52,7 @@ function GenerateNewText() {
       "Taste so good make a grown man cry, sweet cherry pie!",
       "Rob Zombie's Living Dead Girl.",
       "In my dreams it's still the same, your love is strong, it still remains.",
-      "George Lynch or Eddie Van Halen or Tony Iommi? ",
+      "George Lynch or Eddie Van Halen or Tony Iommi?",
       "Smoke on the water.",
       "Shake Me by Cinderella.",
       "Rock Me by Great White is one of the best long-form rock songs.",
@@ -73,7 +73,7 @@ function GenerateNewText() {
       "Buckcherry.",
       "Tesla's Modern Day Cowboy.",
       "I'm going off the rails on a crazy train.",
-      "Let's celebrate",
+      "Let's celebrate!",
       "Studded leather pants.",
       "KISS concert shirts.",
       "Double bass drums.",
@@ -93,7 +93,7 @@ function GenerateNewText() {
       "Lights out, lights out in London.",
       "Ooooh, barracuda.",
       "Oh mama, I'm in fear for my life from the long arm of the law.",
-      "She said look, what's your game baby? Are you tryin' to put me in shame?",
+      "She said look, what's your game baby?Are you tryin' to put me in shame?",
       "I'm the man on the silver mountain.",
       "Stewart Stevenson from Beavis and Butt-head.",
       "Dave Meniketti from Y&T - Mean Streak.",
@@ -137,7 +137,7 @@ function GenerateNewText() {
 }
 
 // Method to the GenerateNewText constructor function that generates a random sentence
-GenerateNewText?  prototype.getRandomSentence = function() {
+GenerateNewText? prototype.getRandomSentence = function() {
   let randomSentence = this.sentences[Math.floor(Math.random() * this.sentences.length)]
 	return randomSentence;
 }
@@ -153,7 +153,7 @@ GenerateNewText.prototype.getParagraph = function() {
       paragraph = paragraph.concat(this.getRandomSentence());
       firstSentence = false;
     } else {
-      paragraph = paragraph.concat(this.getRandomSentence());
+      paragraph = paragraph.concat(" " + this.getRandomSentence());
     }
   }
   return paragraph;

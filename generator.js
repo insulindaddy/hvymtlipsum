@@ -143,7 +143,7 @@ GenerateNewText? prototype.getRandomSentence = function() {
 }
 
 // Method to the GenerateNewText constructor function that generates a paragraph from random sentences
-GenerateNewText.prototype.getParagraph = function() {
+GenerateNewText? prototype.getParagraph = function() {
   let paragraph = "";
   // Set the minimum number of words
   let minimumCharacterLength = 250;

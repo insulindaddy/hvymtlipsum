@@ -66,7 +66,7 @@ function GenerateNewText() {
       "Things ain't always what they seem.What a shame, what happend to Jayne.",
       "Got your number off the bathroom wall, so I decided it was about time I made the call.",
       "Backstage pass.",
-      "They call me Dr.Love.",
+      "They call me Dr. Love.",
       "Bullet Boys - Smooth up in ya.",
       "And yes I'm all lit up again on the couch, in my bed.",
       "Diamond David Lee Roth.",

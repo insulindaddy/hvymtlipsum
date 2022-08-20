@@ -94,7 +94,7 @@ function GenerateNewText() {
       "Billy Squier Stoke Me.",
       "Five Finger Death Punch.",
       "Exit light.Enter night.",
-      "Take my hand.We're off to never-never land.",
+      "Take my hand. We're off to never-never land.",
       "Lights out, lights out in London.",
       "Ooooh, barracuda.",
       "Oh mama, I'm in fear for my life from the long arm of the law.",

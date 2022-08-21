@@ -59,9 +59,12 @@ function GenerateNewText() {
       "Mother tell your children not to hold my hand.",
       "Can anyone possibly be Avenged Sevenfold?",
       "Plug me in I'm alive tonight out on the streets again, turn me on, I'm too hot to stop.",
-      "Megadeth Slayer.Anthrax.",
+      "Megadeth Slayer.",
+      "Anthrax.",
       "Ozzy Osbourne's Diary of a Madman.",
-      "GWAR.Sepultura.Lamb of God.",
+      "GWAR.",
+      "Sepultura.",
+      "Lamb of God.",
       "Maynard of Tool.",
       "Things ain't always what they seem.What a shame, what happend to Jayne.",
       "Got your number off the bathroom wall, so I decided it was about time I made the call.",
@@ -147,7 +150,11 @@ function GenerateNewText() {
       "Decline of the Western Civilization Part II: The Metal Years.",
       "KISS Put the Makeup Back On.",
       "Anthrax Collaborate With Public Enemy.",
-      "Have you ever heard."];
+      "Have you ever heard.",
+      "Ace of Spades.",
+      "Breakin' the law.",
+      "Stevie Ray Vaughan.",
+      "Purple Haze"];
 }
 
 // Method to the GenerateNewText constructor function that generates a random sentence

@@ -96,7 +96,7 @@ function GenerateNewText() {
       "Man, when I tell you she was cool, she was red-hot.",
       "Billy Squier Stoke Me.",
       "Five Finger Death Punch.",
-      "Exit light.Enter night.",
+      "Exit light. Enter night.",
       "Take my hand. We're off to never-never land.",
       "Lights out, lights out in London.",
       "Ooooh, barracuda.",

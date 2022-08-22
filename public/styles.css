@@ -31,11 +31,6 @@ h1 {
   line-height: 20pt;
 }
 
-
-p {
-  font: 14pt;
-}
-
 form {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -47,7 +42,7 @@ form {
 
 .description {
   color: #fff;
-  font-size: 16pt;
+  font-size: 12pt;
   word-spacing: 3px;
   letter-spacing: 1px;
 }

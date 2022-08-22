@@ -33,21 +33,19 @@ h1 {
   line-height: 20pt;
 }
 
-form {
+/* form {
   margin-top: 25px;
   margin-bottom: 25px;
-}
+} */
 
 #container {
     width: 300px;
     margin: auto;
 }
 #label {
-    width: 100px;
     float: left;
 }
 #input {
-    width: 200px;
     float: left;
 }
 #clear {

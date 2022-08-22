@@ -38,18 +38,6 @@ form {
   margin-bottom: 25px;
 }
 
-.float-container {
-    border: 3px;
-    padding: 20px;
-}
-
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
-}
-
 .main-content {
   z-index: 10;
 }
@@ -71,15 +59,15 @@ form {
 .paragraph-number {
   font-size: 12pt;
   max-width: 80px;
-  /* margin: 0;
+  margin: 0;
   margin-right: 10px;
   padding-top: 6px;
   padding-bottom: 6px;
-  height: 40px; */
+  height: 40px;
   transition: box-shadow 1s;
 }
 
-/* .generate-button,
+.generate-button,
 .copy-button {
   padding: 10px 25px;
   box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
@@ -117,7 +105,7 @@ form {
       height: 300px;
     }
   }
-} */
+}
 
 .generated-text {
   padding: 20px;

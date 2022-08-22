@@ -1,7 +1,7 @@
 html {
   /* background-image: url("PD Heavy Metal Image.jpg"); */
-  background-image: url("HeavyMetalTest.jpeg");
-  background-repeat: repeat;
+  background-image: url("HeavyMetalTest.jpeg") no-repeat center center fixed; ;
+  /* background-repeat: repeat; */
 
   -webkit-background-size: cover;
   -moz-background-size: cover;

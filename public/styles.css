@@ -38,12 +38,20 @@ form {
   margin-bottom: 25px;
 }
 
-.main-content {
-  z-index: 10;
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
 }
 
-.input-cluster{
-  display:inline;
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.main-content {
+  z-index: 10;
 }
 
 .description {

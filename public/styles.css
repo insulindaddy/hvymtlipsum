@@ -43,9 +43,11 @@ h1 {
     margin: auto;
 }
 #label {
+  width: 200px;
     float: left;
 }
 #input {
+  width: 200px;
     float: left;
 }
 #clear {

@@ -20,7 +20,7 @@ body {
 img {
   display: block;
   margin-left: auto;
-  /* margin-right: auto; */
+  margin-right: auto;
   width: 75%;
 }
 
@@ -67,7 +67,6 @@ form {
   text-decoration: none;
   color: white;
   font-size: 12pt;
-  /* letter-spacing: .08em; */
   text-transform: uppercase;
   position: relative;
   transition: background-color .6s ease;

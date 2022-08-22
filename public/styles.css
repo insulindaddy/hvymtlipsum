@@ -42,7 +42,18 @@ form {
   z-index: 10;
 }
 
+.input-cluster{
+  display:inline;
+}
+
 .description {
+  color: #fff;
+  font-size: 12pt;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.label{
   color: #fff;
   font-size: 12pt;
   word-spacing: 3px;

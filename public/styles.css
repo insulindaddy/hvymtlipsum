@@ -40,20 +40,15 @@ form {
 
 #container {
     width: 300px;
-    background-color: #ffcc33;
     margin: auto;
 }
 #label {
     width: 100px;
     float: left;
-    height: 300px;
-        background-color: blue;
 }
 #input {
     width: 200px;
     float: left;
-    height: 300px;
-    background-color: green;
 }
 #clear {
     clear: both;

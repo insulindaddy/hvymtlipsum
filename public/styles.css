@@ -1,8 +1,12 @@
 html {
   /* background-image: url("PD Heavy Metal Image.jpg"); */
   background-image: url("HeavyMetalTest.jpeg");
-  background-size: contain;
   background-repeat: repeat;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {

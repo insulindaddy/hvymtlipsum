@@ -38,7 +38,7 @@ function GenerateNewText() {
       "Lemmy... Enough said.",
       "Peace sells, but who's buying?",
       "Bang your head, metal health will drive you mad.",
-      "A pledge pin?On your uniform?",
+      "A pledge pin? On your uniform?",
       "Sam Kinison playing Wild Thing.",
       "Vivian Campbell played in Dio, Last in Line, and Def Leppard.",
       "Oh yeah, t-t-teacher stop that screamin', teacher don't you see, don't wanna be no uptown fool.",

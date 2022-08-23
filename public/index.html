@@ -26,10 +26,12 @@
 
     <div class=input-cluster>
       <form action="/" method="POST">
-        <input type="number" class="paragraph-number" name="numberOfParagraphs" min="0" max="100">
+        <div class=tooltip>
+          <input type="number" class="paragraph-number" name="numberOfParagraphs" min="0" max="100">
+          <span class="tooltip-text">Number of paragraphs</span>
+        </div>
         <input type="submit" value="Generate Pargraphs" class="generate-button">
       </form>
-      <span class="tooltip-text">Number of paragraphs</span>
     </div>
 
     <!-- Copy button -->

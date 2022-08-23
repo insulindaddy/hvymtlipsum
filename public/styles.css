@@ -33,25 +33,9 @@ h1 {
   line-height: 20pt;
 }
 
-/* form {
+form {
   margin-top: 25px;
   margin-bottom: 25px;
-} */
-
-#container {
-    width: 400;
-    margin: auto;
-}
-#label {
-  width: 200px;
-    float: left;
-}
-#input {
-  width: 200px;
-    float: left;
-}
-#clear {
-    clear: both;
 }
 
 .main-content {

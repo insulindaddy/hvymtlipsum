@@ -48,6 +48,7 @@ form {
   visibility: hidden;
   width: 120px;
   text-align: center;
+  color: black;
   padding: 5px 0;
   top: -5px;
   left: 105%;

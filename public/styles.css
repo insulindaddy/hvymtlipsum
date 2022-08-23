@@ -121,7 +121,7 @@ form {
   }
   &:focus,
   &:hover {
-      background: darken(#FC6E51,7%);
+      background: darken(black,15%);
   }
   &:active {
     &:after {

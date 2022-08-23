@@ -47,11 +47,12 @@ form {
 .tooltip .tooltip-text {
   visibility: hidden;
   width: 120px;
-  text-align: center;
-  color: black;
+  background-color: white;
+  color: grey;
+  /* text-align: center; */
   padding: 5px 0;
   top: -5px;
-  left: 105%;
+  right: 105%;
 
   /* Position the tooltip text - see examples below! */
   position: absolute;

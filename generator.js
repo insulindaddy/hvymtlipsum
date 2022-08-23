@@ -7,7 +7,7 @@ const loremIpsum = new GenerateNewText();
 // Constructor function that creates an object with the sentences property
 function GenerateNewText() {
 
-  const contents = readFileSync("phrases", 'utf-8');
+  const contents = readFileSync("public/phrases.txt", 'utf-8');
 
   this.sentences = contents.split(/\r?\n/);
 

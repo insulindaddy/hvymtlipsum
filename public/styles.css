@@ -103,6 +103,7 @@ form {
   position: relative;
   transition: background-color .6s ease;
   overflow: hidden;
+  cursor: pointer;
   &:after {
     content: "";
     position: absolute;

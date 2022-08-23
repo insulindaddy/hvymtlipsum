@@ -43,10 +43,10 @@ form {
          width: 140px;
          background-color: grey;
          color: white;
-         font-size: 12pt;
+         font-size: 10pt;
          z-index: 1;
          top: -6px;
-         right: 100%;
+         right: 105%;
          text-align: center;
          border-radius: 6px;
          padding: 5px 0;

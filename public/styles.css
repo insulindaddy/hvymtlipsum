@@ -38,6 +38,29 @@ form {
   margin-bottom: 25px;
 }
 
+/* Tooltip container */
+.input-cluster {
+  position: relative;
+}
+
+/* Tooltip text */
+.input-cluster .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  text-align: center;
+  padding: 5px 0;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.input-cluster:hover .tooltip-text {
+  visibility: visible;
+}
+/*--------------------------------------*/
+
 .main-content {
   z-index: 10;
 }

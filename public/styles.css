@@ -38,7 +38,7 @@ form {
   margin-bottom: 25px;
 }
 
-.mytooltip .mytext {
+.tooltip .tooltip-text {
          visibility: hidden;
          width: 140px;
          background-color: blue;
@@ -51,11 +51,11 @@ form {
          padding: 5px 0;
          position: absolute;
       }
-      .mytooltip {
+      .tooltip {
          position: relative;
          display: inline-block;
       }
-      .mytooltip:hover .mytext {
+      .tooltip:hover .tooltip-text {
           visibility: visible;
       }
 /*--------------------------------------*/

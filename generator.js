@@ -1,4 +1,4 @@
-
+const {readFileSync, promises: fsPromises} = require('fs');
 // Code that generates the random lorem ipsum text
 
 // Create a new object called loremIpsum by invoking the GenerateNewText constructor function

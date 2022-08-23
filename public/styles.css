@@ -46,13 +46,13 @@ form {
 /* Tooltip text */
 .tooltip .tooltip-text {
   visibility: hidden;
-  width: 120px;
+  width: 100px;
   background-color: white;
   color: grey;
   text-align: center;
   padding: 5px 0;
   top: -5px;
-  right: 105%;
+  left: 105%;
   border-radius: 6px;
 
   /* Position the tooltip text - see examples below! */

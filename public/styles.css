@@ -38,37 +38,26 @@ form {
   margin-bottom: 25px;
 }
 
-/* Tooltip container */
-.tooltip {
-  position: relative;
-}
-
-/* Tooltip text */
-.tooltip .tooltip-text {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Positioning */
-  content: " ";
-  position: absolute;
-  top: 100%; /* At the bottom of the tooltip */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
-  z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltip-text {
-  visibility: visible;
-}
+.mytooltip .mytext {
+         visibility: hidden;
+         width: 140px;
+         background-color: blue;
+         color: #fff;
+         z-index: 1;
+         top: -6px;
+         left: 100%;
+         text-align: center;
+         border-radius: 6px;
+         padding: 5px 0;
+         position: absolute;
+      }
+      .mytooltip {
+         position: relative;
+         display: inline-block;
+      }
+      .mytooltip:hover .mytext {
+          visibility: visible;
+      }
 /*--------------------------------------*/
 
 .main-content {

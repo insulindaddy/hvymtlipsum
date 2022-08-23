@@ -40,7 +40,7 @@ form {
 
 .tooltip .tooltip-text {
          visibility: hidden;
-         width: 140px;
+         width: 120px;
          background-color: grey;
          color: white;
          font-size: 10pt;

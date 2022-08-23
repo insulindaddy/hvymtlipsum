@@ -163,7 +163,7 @@ function GenerateNewText() {
 //       "Breakin' the law.",
 //       "Stevie Ray Vaughan.",
 //       "Purple Haze"];
-// }
+}
 
 // Method to the GenerateNewText constructor function that generates a random sentence
 GenerateNewText.prototype.getRandomSentence = function() {
